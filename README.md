@@ -18,7 +18,7 @@ import ialarmclient
 
 
 async def start():
-    ialarm = IalarmClient(
+    ialarm = ialarmclient.IalarmClient(
         username="username", # <- Your alarm web interface username
         password="password", # <- Your alarm web interface password
         url="http://192.168.123.123" # <- Your alarm web interface URL (no trailing slash)
