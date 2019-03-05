@@ -2,13 +2,19 @@
 
 Also compatible with Meiantech, Allarmi365, and others
 
+# Install
+
+```bash
+python3 -m pip install ialarmclient-phoenix
+```
+
 ## Usage example
 
 ```
 #!/usr/bin/env python
 import asyncio
 
-from ialarmclient import IalarmClient
+import ialarmclient
 
 
 async def start():
