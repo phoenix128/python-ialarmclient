@@ -10,7 +10,7 @@ python3 -m pip install ialarmclient-phoenix
 
 ## Usage example
 
-```
+```python
 #!/usr/bin/env python
 import asyncio
 
